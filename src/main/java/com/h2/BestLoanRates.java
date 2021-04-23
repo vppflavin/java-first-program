@@ -15,7 +15,6 @@ public class BestLoanRates {
     );
 
 
-
     public static void main  (String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter your name ");
@@ -30,8 +29,6 @@ public class BestLoanRates {
         } else {
             System.out.println("Best avaliable Rate "+ getRates(loanTermInYears) + "%");
         }
-
-
 
     }
 
